@@ -27,6 +27,10 @@ body {
     justify-content: center;
     align-items: center;
 }
+#mainContainer {
+    background-color: red;
+    background-image: linear-gradient(180deg, red, white, red);
+}
 .sidenav {
     height: 100%;
     width: 0;
@@ -100,17 +104,29 @@ body {
       align-items: center;
       padding: 10px;
   }
-  #whoWeAre h1 {
+  #whoWeAre h1, #vision h1 {
     font-family: 'Bebas Neue', cursive;
     font-size: 40px;
-    border-bottom: 3px solid #F2BD1B;
-    width: 200px;
+    border-bottom: 7px solid #F2BD1B;
+    width: 250px;
   }
   .afRica {
       width: 100%;
       box-sizing: border-box;
       padding: 20px;
   }
-  #whoWeAre h2{
-      font-size: 18px;
+  #whoWeAre h2, #vision h2{
+      font-size: 22px;
   }
+#vision {
+    width: 100%;
+      box-sizing: border-box;
+      position: relative;
+      text-align: center;
+      margin-top: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+}
