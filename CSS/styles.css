@@ -142,16 +142,13 @@ body {
   }
  
   .justLine  {
-    width: 20px;
-    height: 17px;
-    background-color: #F29979;
-    margin-left: -60px;
-  }
-.justLine {
-    width: 250px;
+    width: 220px;
     height: 7px;
+    background-color: #F29979;
+    margin-left: -90px;
     margin-top: -20px;
-}
+  }
+
 .justDots {
     width: 100%;
     height: 100px;
@@ -186,4 +183,59 @@ body {
 .circle1 {
     margin-top: -80px;
     margin-left: 170px;
+}
+.pictures{
+   width: 100%;
+   box-sizing: border-box;
+   background-image: url(../Assets/dotsVertial.png);
+   background-repeat: no-repeat;
+   background-size: 20px;
+}
+.importantText{
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    padding: 15px;
+}
+.and::before{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 4px;
+    background: #F29979;
+    left: 0;
+    top: 59%;
+    position: absolute;
+}
+.and::after{
+    content: "";
+  display: block;
+  width: 120px;
+  height: 4px;
+  background: #F29979;
+  right: 0;
+  top: 59%;
+  position: absolute;
+}
+.fourPictures{
+    width: 320px;
+    height: 320px;
+    display: grid;
+    background-image: url(../Assets/zigzag.png);
+    background-size: 320px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-template-rows: 160px 160px;
+    grid-template-columns: 160px 160px;
+}
+.elementS{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 200;
 }
