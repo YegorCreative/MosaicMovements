@@ -10,4 +10,18 @@
         color: white;
         margin-left: 360px;
     }
+    .and::before{
+        width: 160px;
+        top: 62%;
+    }
+    .and::after{
+      width: 160px;
+      top: 62%;
+    }
+    .headContact::before{
+        width: 110px;
+    }
+    .headContact::after{
+        width: 110px;
+    }
 }
