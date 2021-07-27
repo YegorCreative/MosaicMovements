@@ -301,6 +301,7 @@ input[type=text], select, textarea {
     border: none;
     cursor: pointer;
     border-radius: 25px;
+    font-size: 18px;
   }
   
   input[type=submit]:hover {
