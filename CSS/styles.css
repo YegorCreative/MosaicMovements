@@ -4,7 +4,13 @@
 html {
     scroll-behavior: smooth;
   }
-
+* p{
+    padding: 10px;
+    font-size: 15px;
+}
+* h1{
+    font-stretch: expanded;
+}
 body {
     min-width: 320px;
     max-width: 1440px;
@@ -28,8 +34,8 @@ body {
     align-items: center;
 }
 #mainContainer {
-    background-color: #F29979;
-    background-image: linear-gradient(180deg, #F29979, white,#F29979, white, #F29979);
+    background-color: #f299794d;
+    background-image: linear-gradient(180deg, #f2997952, white,#f2997950, white, #f299794f, white);
 }
 .sidenav {
     height: 100%;
@@ -118,7 +124,7 @@ body {
   #whoWeAre h2, #vision h2{
       font-size: 22px;
   }
-#vision {
+#vision, #vision1{
     width: 100%;
       box-sizing: border-box;
       position: relative;
@@ -129,4 +135,55 @@ body {
       justify-content: center;
       align-items: center;
       padding: 10px;
+}
+ #vision1 h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+  }
+ 
+  .justLine  {
+    width: 20px;
+    height: 17px;
+    background-color: #F29979;
+    margin-left: -60px;
+  }
+.justLine {
+    width: 250px;
+    height: 7px;
+    margin-top: -20px;
+}
+.justDots {
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.dots {
+    
+    padding: 9px;
+    overflow: hidden;
+}
+.seeThe{
+    text-decoration: none;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    width: 250px;
+    border: solid 3px white;
+    box-shadow: 7px 7px 13px 2px #F29979;
+    box-sizing: border-box;
+    padding: 7px;
+    background-color: white;
+    border-radius: 25px;
+}
+.seeThe:hover{
+    background-color: #f5c8b8;
+    color: white;
+}
+.circle1 {
+    margin-top: -80px;
+    margin-left: 170px;
 }
