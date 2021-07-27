@@ -1,0 +1,13 @@
+@media screen and (min-width: 321px){
+    #mainContainer, #topPart{
+        width: 425px;
+    }
+    #topPart{
+        background-size: 425px;
+    }
+    .sSpan{
+        margin-top: 10px;
+        color: white;
+        margin-left: 360px;
+    }
+}

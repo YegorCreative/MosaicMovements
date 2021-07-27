@@ -33,6 +33,14 @@ body {
     justify-content: center;
     align-items: center;
 }
+#topPart{
+    position: relative;
+    height: 100vh;
+    background-image: url(../Assets/Asset1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 320px;background-position: bottom;
+}
 #mainContainer {
     background-color: #f299794d;
     background-image: linear-gradient(180deg, #f2997952, white,#f2997950, white, #f299794f, white);
@@ -80,10 +88,11 @@ body {
   }
   
   .sSpan{
-      margin-top: 10px;
-      z-index: 1;
+      top: 10px;
+     z-index: 0;
       color: white;
       margin-left: 260px;
+      position: absolute;
   }
   .firstBack{
       width: 100%;
@@ -91,7 +100,7 @@ body {
       z-index: 0;
   }
   .logo{
-      margin-top: -500px;
+      margin-top: 20px;
       z-index: 1;
   }
   .lineS {
