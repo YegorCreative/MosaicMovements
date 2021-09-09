@@ -370,3 +370,22 @@ input[type=text], select, textarea {
      color: #fadd85;
  }
   
+ .funnel{
+     width: 100%;
+     box-sizing: border-box;
+     padding: 15px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+ .stripedText{
+     max-width: 750px;
+     width: 100%;
+     padding: 10px;
+     text-align: center;
+     background-color: rgba(255, 255, 255, 0.582);
+     font-size: 25px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
