@@ -33,7 +33,12 @@
         height: 70vh;
         background-position: top;
     }
-  
+    .afRica{
+        max-width: 590px;
+    }
+    #whoWeAre {
+        max-width: 590px;
+    }
 
 }
 @media screen and (min-width: 769px){
