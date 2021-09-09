@@ -30,7 +30,8 @@
     #topPart{
         background-image: url(../Assets/backgound@2x.png);
         background-size: 100%;
-        height: 50vh;
+        height: 70vh;
+        background-position: top;
     }
   
 
@@ -39,19 +40,13 @@
     #topPart{
         background-image: url(../Assets/backgound@2x.png);
         background-size: 100%;
-        height: 80vh;
+        height: 70vh;
     }
-    .sidenav {
-        width: 100%;
+    .sidenav,.sSpan {
+       display:none;
+    }
+
+    #mySidenav2{
         display: flex;
-        height: auto;
-        padding: 15px;
-        background-image: none;
-        position: relative;
-        margin-top: -155px;
-    }
-    .closebtn, .sSpan{
-        display: none;
-       
     }
 }

@@ -35,11 +35,12 @@ body {
 }
 #topPart{
     position: relative;
-    height: 70vh;
+    height: 94vh;
     background-image: url(../Assets/fristbanner.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 320px;background-position: bottom;
+    background-position: center;
 }
 #mainContainer {
     background-color: #f299794d;
@@ -90,12 +91,25 @@ body {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
-  
+  #mySidenav2{
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    font-size: 20px;
+    display: none;
+}
+#mySidenav2 a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
   .sSpan{
       top: 10px;
      z-index: 0;
       color: white;
-      margin-left: 260px;
+      right: 60px;
       position: absolute;
   }
   .firstBack{
