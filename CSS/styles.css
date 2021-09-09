@@ -35,8 +35,8 @@ body {
 }
 #topPart{
     position: relative;
-    height: 100vh;
-    background-image: url(../Assets/Asset1.png);
+    height: 70vh;
+    background-image: url(../Assets/fristbanner.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 320px;background-position: bottom;
@@ -52,19 +52,23 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: red;
-    background-image: linear-gradient(to bottom right, red, yellow);
+   /* background-color: red;
+    background-image: linear-gradient(to bottom right, red, yellow);*/
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
     text-align:center;
+    background-image: url(../Assets/backgound2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   
   .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: white;
     display: block;
     transition: 0.3s;
   
@@ -101,7 +105,7 @@ body {
   }
   .logo{
       margin-top: 20px;
-      z-index: 1;
+      z-index: 0;
   }
   .lineS {
       margin-top: 30px;
@@ -112,7 +116,7 @@ body {
       box-sizing: border-box;
       position: relative;
       text-align: center;
-      margin-top: 100px;
+      margin-top: 10px;
       display: flex;
       flex-direction: column;
       justify-content: center;
