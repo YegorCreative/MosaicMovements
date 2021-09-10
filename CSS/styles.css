@@ -35,12 +35,12 @@ body {
 }
 #topPart{
     position: relative;
-    height: 94vh;
+    height: 600px;
     background-image: url(../Assets/fristbanner.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 320px;background-position: bottom;
-    background-position: center;
+    background-position: bottom;
 }
 #mainContainer {
     background-color: #f299794d;
