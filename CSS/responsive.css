@@ -2,9 +2,7 @@
     #mainContainer, #topPart{
         width: 100%;
     }
-    #topPart{
-        background-size: 425px;
-    }
+   
     .sSpan{
         margin-top: 10px;
         color: white;
@@ -27,11 +25,7 @@
 }
 
 @media screen and (min-width: 620px){
-    #topPart{
-        background-image: url(../Assets/backgound@2x.png);
-        background-size: 100%;
-        background-position: top;
-    }
+   
     .afRica{
         max-width: 590px;
     }
