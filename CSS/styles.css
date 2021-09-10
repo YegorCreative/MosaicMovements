@@ -35,7 +35,7 @@ body {
 }
 #topPart{
     position: relative;
-    height: 500px;
+    height: 470px;
     background-image: url(../Assets/fristbanner.png);
     background-size: contain;
     background-repeat: no-repeat;
