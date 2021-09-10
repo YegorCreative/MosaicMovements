@@ -166,8 +166,21 @@ body {
     font-family: 'Bebas Neue', cursive;
     font-size: 40px;
   }
+  #vision1{
+      max-width: 650px;
+  }
+  #vision{
+      max-width: 440px;
+  }
  
- 
+  .mosaicThree{
+      width: 100%;
+      box-sizing: border-box;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+  }
 
 .justDots {
     width: 100%;
@@ -249,23 +262,34 @@ body {
   position: absolute;
 }
 .fourPictures{
-    width: 320px;
+    max-width: 680px;
     display: flex;
-    flex-direction: column;
-    /*background-image: url(../Assets/zigzag.png);*/
-    background-size: 250px;
+    flex-wrap: wrap;
+   box-sizing: border-box;
+   justify-content: center;
+   align-items: center;
     
 }
 .elementS{
-    width: 100%;
+    width: 300px;
     height: 220px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
+    font-size: 18px;
+    text-align: center;
+}
+.questioNs, #vision2{
+    max-width: 900px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    
 }
 .threeQuestion {
     width: 250px;
@@ -280,6 +304,7 @@ body {
 }
 
 .dotsDo{
+    max-width: 550px;
     width: 100%;
     box-sizing: border-box;
     padding: 20px;
@@ -384,6 +409,7 @@ input[type=text], select, textarea {
  }
   
  .funnel{
+     max-width: 650px;
      width: 100%;
      box-sizing: border-box;
      padding: 15px;
@@ -401,4 +427,37 @@ input[type=text], select, textarea {
      font-size: 25px;
      margin-top: 10px;
      margin-bottom: 10px;
+ }
+ .line1{
+     width: 80%;
+     height: 10px;
+     background-color: black;
+    margin: 20px auto;
+ }
+ .explain{
+     max-width: 800px;
+     width: 100%;
+     box-sizing: border-box;
+     pad: 25px;
+ }
+ .explain h2{
+     max-width: 480px;
+     text-align: center;
+     padding: 15px;
+     margin: 0 auto;
+ }
+ #vision2 h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    border-bottom: 7px solid #F2BD1B;
+    width: 250px;
+ }
+ .combained{
+    width: 280px;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
  }
