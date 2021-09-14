@@ -604,7 +604,7 @@ input[type=text], select, textarea {
 
 
 /* The Overlay (background) */
-.overlay2 {
+.overlay2, .overlay3 {
     /* Height & width depends on how you want to reveal the overlay (see JS below) */   
     height: 100%;
     width: 0;
@@ -622,7 +622,7 @@ input[type=text], select, textarea {
   .overlay-content2 {
     position: relative;
     top: 25%; /* 25% from the top */
-    width: 100%; /* 100% width */
+    max-width: 650px; /* 100% width */
     text-align: center; /* Centered text/links */
     margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
   }
