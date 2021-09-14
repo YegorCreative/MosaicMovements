@@ -536,6 +536,9 @@ input[type=text], select, textarea {
       display: flex;
       justify-content: center;
       padding: 15px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
   }
   #communityDevelopement h1 {
     font-family: 'Bebas Neue', cursive;
@@ -544,6 +547,11 @@ input[type=text], select, textarea {
     max-width: 450px;
     text-align: center;
   }
+  #communityDevelopement h3{
+      max-width: 560px;
+      text-align: center;
+  }
+
 
   #overlay {
     position: fixed; /* Sit on top of the page content */
@@ -556,9 +564,9 @@ input[type=text], select, textarea {
     bottom: 0;
     box-sizing: border-box;
     padding: 25px;
-    background-image: url(../Assets/background2.0.png);
+   /* background-image: url(../Assets/background2.0.png);*/
     background-size: cover;
-    background-color: rgb(0, 0, 0); /* Black background with opacity */
+    background-color: #F29979; /* Black background with opacity */
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer; /* Add a pointer on hover */
     justify-content: center;
@@ -567,8 +575,28 @@ input[type=text], select, textarea {
   #text{
       color: white;
   }
+  #text h2{
+      max-width: 560px;
+  }
   .projectsButton{
       width: 320px;
       box-sizing: border-box;
       
+  }
+
+
+  /**/
+
+  #overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
   }
