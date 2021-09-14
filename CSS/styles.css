@@ -586,6 +586,23 @@ input[type=text], select, textarea {
 
 
   /**/
+.allProjects, .projectsAll{
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.projectsAll{
+  pad: 5px;
+  max-width: 420px;
+  flex-direction: column;
+  
+  margin: 15px;
+}
+
+
 /* The Overlay (background) */
 .overlay2 {
     /* Height & width depends on how you want to reveal the overlay (see JS below) */   
@@ -635,10 +652,16 @@ input[type=text], select, textarea {
   
   .butik{
       width: 300px;
-      height: 240px;
       box-sizing: border-box;
-      background-image: url(../Assets/placeholder-320.png);
-      background-position: center;
+      font-size: 18px;
+      text-align: center;
+      text-decoration: none;
+      padding: 7px;
+      margin:10px auto;
+      background-color: #F29979;
+      color: white;
+      border-radius: 15px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
   /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
   @media screen and (max-height: 450px) {
