@@ -567,3 +567,8 @@ input[type=text], select, textarea {
   #text{
       color: white;
   }
+  .projectsButton{
+      width: 320px;
+      box-sizing: border-box;
+      
+  }
