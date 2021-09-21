@@ -598,5 +598,6 @@ input[type=text], select, textarea {
     display: none;
     background-color: white;
     overflow: hidden;
-    border-radius: 15px;
+   margin-left: 10px;
+   margin-right: 10px;
   }
