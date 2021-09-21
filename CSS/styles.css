@@ -561,6 +561,7 @@ input[type=text], select, textarea {
  .allProjects{
      max-width: 750px;
      width: 100%;
+     height: 100%;
      box-sizing: border-box;
      display: flex;
      justify-content: center;
