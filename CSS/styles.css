@@ -611,5 +611,44 @@ input[type=text], select, textarea {
     margin-top: 20px;
 }
 
+.parallax {
+    /* The image used */
+    background-image: url("../Assets/mosaicSaic.png");
+  
+    /* Set a specific height */
+    height: 500px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+
+  .parallax h1{
+      z-index: 5;
+      font-size: 50px;
+      text-align: center;
+  }
+.iNeedYou{
+    width: 100%;
+    position: absolute;
+    height: 500px;
+    background-color: #5f5e5b4d;
+    z-index: 0;
+}
 
   
