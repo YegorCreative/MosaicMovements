@@ -407,9 +407,16 @@ input[type=text], select, textarea {
  footer a:hover{
      color: #fadd85;
  }
-  
+  .funnelUnited{
+      width: 100%;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+  }
  .funnel{
-     max-width: 650px;
+     max-width: 450px;
      width: 100%;
      box-sizing: border-box;
      padding: 15px;
@@ -419,19 +426,19 @@ input[type=text], select, textarea {
      flex-direction: column;
  }
  .stripedText{
-     max-width: 750px;
+     max-width: 550px;
      width: 100%;
      padding: 10px;
      text-align: center;
      background-color: rgba(255, 255, 255, 0.582);
-     font-size: 25px;
+     font-size: 20px;
      margin-top: 10px;
      margin-bottom: 10px;
  }
  .line1{
      width: 80%;
      height: 10px;
-     background-color: black;
+     background-color: rgb(110, 46, 46);
     margin: 20px auto;
  }
  .explain{
@@ -441,10 +448,11 @@ input[type=text], select, textarea {
      pad: 25px;
  }
  .explain h2{
-     max-width: 480px;
+     max-width: 1080px;
      text-align: center;
      padding: 15px;
      margin: 0 auto;
+     font-size: 18px;
  }
  #vision2 h1{
     font-family: 'Bebas Neue', cursive;
