@@ -580,24 +580,29 @@ input[type=text], select, textarea {
     align-items: center;
     flex-direction: column;
     width: 100%;
-   
     border: none;
     text-align: left;
     outline: none;
     font-size: 18px;
     transition: 0.4s;
     margin: 10px;
-    border-bottom: 5px solid #F2BD1B;
+    border-bottom: 5px  solid #f5c8b8;
     border-radius: 15px;
+    text-align: center;
+  }
+  .greeny{
+    color: rgb(3, 80, 3);
   }
   
   .active, .accordion:hover {
-    background-color: #ccc; 
+    background-color: #f299792d; 
     
+  }
+  .accordion img{
+    border-radius: 20px;
   }
   
   .panel {
-   
     box-sizing: border-box; 
     width: 100%;
     padding: 0 18px;
@@ -607,6 +612,7 @@ input[type=text], select, textarea {
    margin-left: 10px;
    margin-right: 10px;
    border-radius: 25px;
+   font-family: 'Montserrat', sans-serif;  
   }
 
 .myQuestion{
@@ -657,4 +663,23 @@ input[type=text], select, textarea {
     z-index: 0;
 }
 
-  
+.giveMe{
+  padding: 11px 37px 11px 37px;
+
+  text-decoration: none;
+  color: rgb(6, 48, 28);
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+  border: solid 3px white;
+  box-shadow: 7px 7px 13px 2px #F29979;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+
+}
+.giveMe:hover{
+  background-color: #f5c8b8;
+  color: white;
+}
