@@ -620,13 +620,12 @@ input[type=text], select, textarea {
     box-sizing: border-box;
     padding: 15px;
     background-color: #f7ae93;
-    margin-top: 20px;
+    margin-top: 0px;
+    text-align: center;
 }
 
-.parallax {
-    /* The image used */
-    background-image: url("../Assets/mosaicSaic.png");
-  
+.parallax, .parallax1 {
+   
     /* Set a specific height */
     height: 500px;
     width: 100%;
@@ -642,10 +641,20 @@ input[type=text], select, textarea {
     background-size: cover;
     position: relative;
   }
+  .parallax{
+ /* The image used */
+ background-image: url("../Assets/mosaicSaic.png");
+  
+  }
+  .parallax1{
+     /* The image used */
+ background-image: url("../Assets/mosaicSaic.png");
+  
+  }
 
   /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
-    .parallax {
+    .parallax, .parallax1 {
       background-attachment: scroll;
     }
   }
