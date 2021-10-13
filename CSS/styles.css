@@ -144,11 +144,7 @@ body {
   }
   
  
-  .afRica {
-      width: 100%;
-      box-sizing: border-box;
-      padding: 20px;
-  }
+ 
   #whoWeAre h2, #vision h2{
       font-size: 22px;
   }
@@ -175,39 +171,6 @@ body {
       max-width: 440px;
   }
  
-  .mosaicThree{
-      width: 100%;
-      box-sizing: border-box;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: flex-start;
-  }
-
-.justDots {
-    width: 100%;
-    height: 100px;
-    box-sizing: border-box;
-    display: flex;
-    
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-.justLine  {
-    width: 220px;
-    height: 7px;
-    background-color: #F29979;
-    position: absolute;
-    left: 0;
-    top: 90px;
-  }
-.dots {
-    position: absolute;
-    padding: 9px;
-    overflow: hidden;
-    right: 0;
-}
 .seeThe{
     text-decoration: none;
     color: black;
@@ -221,15 +184,13 @@ body {
     background-color: white;
     border-radius: 25px;
     margin-bottom: 25px;
+    margin: 20px;
 }
 .seeThe:hover{
     background-color: #f5c8b8;
     color: white;
 }
-.circle1 {
-    margin-top: -80px;
-    margin-left: 170px;
-}
+
 .pictures{
    width: 100%;
    box-sizing: border-box;
@@ -296,67 +257,10 @@ body {
 }
 
 
-.dotsDo{
-    max-width: 350px;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 20px;
-}
-.contactUS{
-    width: 100%;
-    box-sizing: border-box;
-    padding: 20px;
-    text-align: center;
-    position: relative;
-}
-.headContact::before{
-    content: "";
-    display: block;
-    width: 60px;
-    height: 4px;
-    background: #F29979;
-    right: 0;
-    top: 55%;
-    position: absolute;
-}
-.headContact::after{
-    content: "";
-    display: block;
-    width: 60px;
-    height: 4px;
-    background: #F29979;
-    left: 0;
-    top: 55%;
-    position: absolute;
-}
+
 
 /* Contact US*/
-/* Style inputs */
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #F29979;
-    border-radius: 25px;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    font-size: 18px;
-  }
-  
-  input[type=submit] {
-    background-color: #F29979;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 25px;
-    font-size: 18px;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #F29979;
-  }
-  
+
   /* Style the container/contact section */
   .container {
     border-radius: 5px;
@@ -378,6 +282,17 @@ input[type=text], select, textarea {
     content: "";
     display: table;
     clear: both;
+  }
+
+  .twoButtons{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
   /*footer*/
  footer{
@@ -624,7 +539,7 @@ input[type=text], select, textarea {
     text-align: center;
 }
 
-.parallax, .parallax1 {
+.parallax, .parallax1, .parallax2,.parallax3, .parallax4 {
    
     /* Set a specific height */
     height: 500px;
@@ -648,22 +563,62 @@ input[type=text], select, textarea {
   }
   .parallax1{
      /* The image used */
- background-image: url("../Assets/mosaicSaic.png");
+ background-image: url("../Assets/paralax11.png");
   
   }
+  .parallax2{
+    /* The image used */
+background-image: url("../Assets/paralax2.png");
+ 
+ }
+ .parallax3{
+  /* The image used */
+background-image: url("../Assets/paralax3.png");
+
+}
+.parallax4{
+  /* The image used */
+background-image: url("../Assets/paralax4.png");
+
+}
 
   /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
-    .parallax, .parallax1 {
+    .parallax, .parallax1, .parallax2,.parallax3, .parallax4 {
       background-attachment: scroll;
     }
   }
-
+.paraText{
+  font-size: 120px;
+}
   .parallax h1{
       z-index: 5;
       font-size: 50px;
       text-align: center;
   }
+
+  .whoText{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .whoText h2{
+    max-width: 850px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+.myLine{
+  
+  width: 60%;
+  height: 5px;
+  background-color: #F2BD1B;
+  border: #f7ae93;
+  margin-top: 20px;
+}
 .iNeedYou{
     width: 100%;
     position: absolute;
