@@ -590,6 +590,7 @@ background-image: url("../Assets/paralax4.png");
   }
 .paraText{
   font-size: 120px;
+  text-shadow:5px 5px 10px black;
 }
   .parallax h1{
       z-index: 5;
