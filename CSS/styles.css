@@ -380,12 +380,13 @@ body {
  /* drop down*/
 
  .dropbtn {
-    background-color: #F29979;
+    background-color: transparent;
     border: none;
     padding: 8px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 22px;
     color: white;
+    font-weight: 200;
   }
   
   .dropdown {
@@ -537,6 +538,17 @@ body {
     background-color: #f7ae93;
     margin-top: 0px;
     text-align: center;
+    color: transparent;
+    -webkit-text-stroke: 1px #F29979;
+    background: url(../Assets/stripes222.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: becky 20s linear infinite;
+}
+@keyframes becky{
+  100%{
+    background-position: 2000px 0;
+  }
 }
 
 .parallax, .parallax1, .parallax2,.parallax3, .parallax4 {
@@ -590,7 +602,14 @@ background-image: url("../Assets/paralax4.png");
   }
 .paraText{
   font-size: 120px;
-  text-shadow:5px 5px 10px black;
+  /*text-shadow:5px 5px 10px black;*/
+  text-align: center;
+  color: transparent;
+    -webkit-text-stroke: 3px #FFF;
+    background: url(../Assets/stripes12.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: becky 20s linear infinite;
 }
   .parallax h1{
       z-index: 5;
@@ -647,4 +666,10 @@ background-image: url("../Assets/paralax4.png");
 .giveMe:hover{
   background-color: #f5c8b8;
   color: white;
+}
+
+.clickHere{
+  text-align: center;
+  padding: 15px;
+  font-weight: 300;
 }
