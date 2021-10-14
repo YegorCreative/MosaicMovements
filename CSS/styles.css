@@ -552,7 +552,7 @@ body {
   }
 }
 
-.parallax, .parallax1, .parallax2,.parallax3, .parallax4 {
+.parallax, .parallax1, .parallax2,.parallax3, .parallax4, .parallax5, .parallax6 {
    
     /* Set a specific height */
     height: 500px;
@@ -594,10 +594,20 @@ background-image: url("../Assets/paralax3.png");
 background-image: url("../Assets/paralax4.png");
 
 }
+.parallax5{
+  /* The image used */
+background-image: url("../Assets/paralax5.png");
+
+}
+.parallax6{
+  /* The image used */
+background-image: url("../Assets/renovate.png");
+
+}
 
   /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
-    .parallax, .parallax1, .parallax2,.parallax3, .parallax4 {
+    .parallax, .parallax1, .parallax2,.parallax3, .parallax4, .parallax5, .parallax6 {
       background-attachment: scroll;
     }
   }
@@ -617,6 +627,17 @@ background-image: url("../Assets/paralax4.png");
       font-size: 50px;
       text-align: center;
   }
+  .paraText2{
+    font-size: 70px;
+    text-shadow:5px 5px 10px black;
+    text-align: center;
+    color: #f5c8b8;
+  }
+    .parallax h1{
+        z-index: 5;
+        font-size: 50px;
+        text-align: center;
+    }
 
   .whoText{
     width: 100%;
@@ -673,4 +694,17 @@ background-image: url("../Assets/paralax4.png");
   text-align: center;
   padding: 15px;
   font-weight: 300;
+}
+
+.myProject{
+  max-width: 650px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+.toGive{
+  color: rgb(2, 80, 2);
+}
+.diferentColor{
+  color: orange;
 }
