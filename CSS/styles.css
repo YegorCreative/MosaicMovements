@@ -421,6 +421,7 @@ body {
       width: 100%;
       box-sizing: border-box;
       display: flex;
+      flex-wrap: wrap;
       justify-content: center;
       align-items: center;
   }
@@ -539,7 +540,7 @@ body {
     margin-top: 0px;
     text-align: center;
     color: transparent;
-    -webkit-text-stroke: 1px #F29979;
+    -webkit-text-stroke: 1.2px rgb(20, 1, 1);
     background: url(../Assets/stripes222.png);
     -webkit-background-clip: text;
     background-position: 0 0;
