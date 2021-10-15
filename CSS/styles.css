@@ -498,7 +498,7 @@ body {
   }
 }
 
-.parallax, .parallax1, .parallax2,.parallax3, .parallax4, .parallax5, .parallax6, .parallax7, .parallax8, .parallax9 {
+.parallax, .parallax1, .parallax2,.parallax3, .parallax4, .parallax5, .parallax6, .parallax7, .parallax8, .parallax9,.parallax10 {
    
     /* Set a specific height */
     height: 500px;
@@ -514,6 +514,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    flex-direction: column;
   }
   .parallax{
  /* The image used */
@@ -565,10 +566,25 @@ background-image: url("../Assets/soccer.gif");
 background-image: url("../Assets/paralax11.gif");
 
 }
+.parallax10{
+  /* The image used */
+background-image: url("../Assets/paralax13.gif");
+text-align: center;
+padding: 20px;
+}
+.parallax10 h2{
+  max-width: 650px;
+  font-size: 22px;
+  padding: 20px;
+}
+.parallax10 h3{
+  font-size: 18px;
+  
+}
 
   /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
-    .parallax, .parallax1, .parallax2,.parallax3, .parallax4, .parallax5, .parallax6, .parallax7, .parallax8, .parallax9 {
+    .parallax, .parallax1, .parallax2,.parallax3, .parallax4, .parallax5, .parallax6, .parallax7, .parallax8, .parallax9, .parallax10 {
       background-attachment: scroll;
     }
   }
