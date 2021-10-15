@@ -476,61 +476,7 @@ body {
  * Material Modal CSS
  */
  /* Style the tab */
- .allProjects{
-     max-width: 750px;
-     width: 100%;
-     height: 100%;
-     box-sizing: border-box;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-wrap: wrap;flex-direction: column;
- }
- .accordion {
-    background-color: white;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    max-width: 520px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 18px;
-    transition: 0.4s;
-    margin: 10px;
-    border-bottom: 5px  solid #f5c8b8;
-    border-radius: 15px;
-    text-align: center;
-  }
-  .greeny{
-    color: rgb(3, 80, 3);
-  }
-  
-  .active, .accordion:hover {
-    background-color: #f299792d; 
-    
-  }
-  .accordion img{
-    border-radius: 20px;
-  }
-  
-  .panel {
-    box-sizing: border-box; 
-    width: 100%;
-    padding: 0 18px;
-    display: none;
-    background-color: white;
-    overflow: hidden;
-   margin-left: 10px;
-   margin-right: 10px;
-   border-radius: 25px;
-   font-family: 'Montserrat', sans-serif;  
-  }
+ 
 
 .myQuestion{
     width: 100%;
@@ -552,7 +498,7 @@ body {
   }
 }
 
-.parallax, .parallax1, .parallax2,.parallax3, .parallax4, .parallax5, .parallax6 {
+.parallax, .parallax1, .parallax2,.parallax3, .parallax4, .parallax5, .parallax6, .parallax7, .parallax8, .parallax9 {
    
     /* Set a specific height */
     height: 500px;
@@ -604,10 +550,25 @@ background-image: url("../Assets/paralax5.png");
 background-image: url("../Assets/renovate.png");
 
 }
+.parallax7{
+  /* The image used */
+background-image: url("../Assets/paralax11.gif");
+
+}
+.parallax8{
+  /* The image used */
+background-image: url("../Assets/soccer.gif");
+
+}
+.parallax9{
+  /* The image used */
+background-image: url("../Assets/paralax11.gif");
+
+}
 
   /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
-    .parallax, .parallax1, .parallax2,.parallax3, .parallax4, .parallax5, .parallax6 {
+    .parallax, .parallax1, .parallax2,.parallax3, .parallax4, .parallax5, .parallax6, .parallax7, .parallax8, .parallax9 {
       background-attachment: scroll;
     }
   }
@@ -707,4 +668,8 @@ background-image: url("../Assets/renovate.png");
 }
 .diferentColor{
   color: orange;
+}
+.current{
+  color: red;
+  text-align: center;
 }
