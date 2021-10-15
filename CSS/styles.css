@@ -689,3 +689,16 @@ padding: 20px;
   color: red;
   text-align: center;
 }
+.levels{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.leveLs{
+  max-width: 950px;
+}
